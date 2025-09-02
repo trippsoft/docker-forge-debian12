@@ -1,7 +1,7 @@
 # Copyright (c) Forge
 # SPDX-License-Identifier: MPL-2.0
 
-FROM docker.io/library/debian:trixie
+FROM docker.io/library/debian:bookworm
 
 RUN apt-get update -y
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
