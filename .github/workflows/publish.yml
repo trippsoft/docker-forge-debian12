@@ -1,4 +1,4 @@
-name: Publish debian12 Container
+name: Publish Container
 on:
   schedule:
     - cron: '43 21 * * WED'
